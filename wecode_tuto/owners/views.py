@@ -18,7 +18,7 @@ class OwnersView(View):
         for owner in owners:
             for dog in dogs:
                 if owner.id == dog.owners_id:
-                    dog_list.append((dog.name,dog.age))
+                    dog_list.append({'dog_name':dog.name,'dog_age':dog.age})
                 owners_results.append(
                     {
                         "name":owner.name,
