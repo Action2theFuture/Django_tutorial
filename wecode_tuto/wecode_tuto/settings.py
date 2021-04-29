@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 	'tuto',
     'owners',
     'movies',
-	'corsheaders'
+	'corsheaders',
 ]
 
 MIDDLEWARE = [
